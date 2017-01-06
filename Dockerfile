@@ -6,5 +6,5 @@ RUN apt-get update && apt-get -y install asciijump
 
 ENV TERM xterm-256color
 
-CMD /bin/bash -c /usr/games/asciijump
+CMD /bin/bash -c "sleep .1s && /usr/games/asciijump"
 
